@@ -21,7 +21,7 @@ const characters = [
     strengths: "Great for stealth, traps, persuasion, and sneak attacks.",
     weakness: "Can be fragile in direct combat.",
     quote: "Careful, I bite.",
-    image: "/images/astarion.jpg",
+    image: "/images/astarion.png",
     vibe: "Chaotic elegance",
     difficulty: "Medium"
   },
@@ -36,7 +36,7 @@ const characters = [
     strengths: "Useful for healing, buffs, defense, and support magic.",
     weakness: "Not the strongest damage dealer early on.",
     quote: "I still have a few tricks left.",
-    image: "/images/shadowheart.jpg",
+    image: "/images/shadowheart.png",
     vibe: "Dark devotion",
     difficulty: "Easy"
   },
@@ -51,7 +51,7 @@ const characters = [
     strengths: "Powerful spells, area damage, and utility magic.",
     weakness: "Low health and needs protection.",
     quote: "A rough tempest I will raise.",
-    image: "/images/gale.jpg",
+    image: "/images/gale.png",
     vibe: "Arcane scholar",
     difficulty: "Medium"
   },
@@ -66,7 +66,7 @@ const characters = [
     strengths: "Strong melee attacks, armor, and survivability.",
     weakness: "Can be harsh in social situations.",
     quote: "Enough waiting. We strike.",
-    image: "/images/laezel.jpg",
+    image: "/images/laezel.png",
     vibe: "Warrior discipline",
     difficulty: "Easy"
   },
@@ -81,7 +81,7 @@ const characters = [
     strengths: "Reliable ranged damage and charisma-based dialogue.",
     weakness: "Limited spell slots compared to other casters.",
     quote: "The Blade stands ready.",
-    image: "/images/wyll.jpg",
+    image: "/images/wyll.png",
     vibe: "Hero with a secret",
     difficulty: "Medium"
   },
@@ -96,7 +96,7 @@ const characters = [
     strengths: "High damage, strong health, and great frontline power.",
     weakness: "Limited ranged options.",
     quote: "Soldier!",
-    image: "/images/karlach.jpg",
+    image: "/images/karlach.png",
     vibe: "Fire-hearted warrior",
     difficulty: "Easy"
   },
@@ -111,7 +111,7 @@ const characters = [
     strengths: "Flexible magic, healing, and wild shape forms.",
     weakness: "Can feel less specialized than other companions.",
     quote: "Nature will have its balance.",
-    image: "/images/halsin.jpg",
+    image: "/images/halsin.png",
     vibe: "Guardian of nature",
     difficulty: "Medium"
   },
@@ -126,7 +126,7 @@ const characters = [
     strengths: "Powerful smites, armor, and leadership energy.",
     weakness: "Harder to recruit depending on story choices.",
     quote: "Weakness must be cut away.",
-    image: "/images/minthara.jpg",
+    image: "/images/minthara.png",
     vibe: "Ruthless authority",
     difficulty: "Hard"
   },
@@ -141,7 +141,7 @@ const characters = [
     strengths: "Balanced support, nature magic, and experience.",
     weakness: "Joins later in the game.",
     quote: "The old ways still have teeth.",
-    image: "/images/jaheira.jpg",
+    image: "/images/jaheira.png",
     vibe: "Veteran protector",
     difficulty: "Medium"
   },
@@ -156,7 +156,7 @@ const characters = [
     strengths: "Strong physical attacks and fun character energy.",
     weakness: "Joins very late in the game.",
     quote: "Go for the eyes, Boo!",
-    image: "/images/minsc.jpg",
+    image: "/images/minsc.png",
     vibe: "Chaotic heroism",
     difficulty: "Medium"
   },
@@ -171,7 +171,7 @@ const characters = [
     strengths: "Unique story content and strong magic potential.",
     weakness: "Story choices can be morally difficult.",
     quote: "Something inside me wants blood.",
-    image: "/images/dark-urge.jpg",
+    image: "/images/dark-urge.png",
     vibe: "Dark mystery",
     difficulty: "Hard"
   },
@@ -186,7 +186,7 @@ const characters = [
     strengths: "Flexible build, personality, and story direction.",
     weakness: "Less preset backstory than origin characters.",
     quote: "The adventure begins with you.",
-    image: "/images/tav.jpg",
+    image: "/images/tav.png",
     vibe: "Limitless potential",
     difficulty: "Varies"
   }
@@ -223,7 +223,7 @@ app.get("/characters/:slug", (req, res) => {
     return res.status(404).sendFile(path.join(__dirname, "public", "404.html"));
   }
 
-  res.sendFile(path.join(__dirname, "public", "character.html"));
+  res.sendFile(path.join(__dirname, "public", "detail.html"));
 });
 
 // Fallback 404 for any other routes
