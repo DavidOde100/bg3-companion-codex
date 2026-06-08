@@ -1,0 +1,24 @@
+{
+  "name": "bg3-companion-codex",
+  "version": "1.0.0",
+  "description": "Submitted by: **David Odejimi**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidOde100/bg3-companion-codex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DavidOde100/bg3-companion-codex/issues"
+  },
+  "homepage": "https://github.com/DavidOde100/bg3-companion-codex#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
