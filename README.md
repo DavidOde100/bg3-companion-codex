@@ -39,7 +39,7 @@ Here's a walkthrough of implemented required features:
 <img src='./public/images/Tavern Code.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
+getkap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
