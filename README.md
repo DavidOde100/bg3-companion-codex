@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='./client/src/assets/images/Tavern Code.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
+<img src='./client/src/assets/images/Tavern Code 2.gif.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 getkap
@@ -43,7 +43,7 @@ getkap
 
 ## Notes
 
-
+Two challenges I encountered while building the app were connecting the PostgreSQL database and getting the database schema to work correctly. After troubleshooting the connection settings and schema file, I was able to fix the issue and successfully load the character data. Another challenge happened when I added the search feature. The search results kept returning all 12 characters even when I searched for one specific character or class. I discovered that the issue was in my character routes, because the route was returning every character instead of filtering the database results based on the search request. Once I updated the route logic, the search feature worked correctly.
 
 ## License
 
