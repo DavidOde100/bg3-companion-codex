@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='./client/src/assets/images/Tavern Code 2.gif.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
+<img src='./client/src/assets/images/Tavern Code 2.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 getkap
